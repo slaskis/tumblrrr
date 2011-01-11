@@ -2,12 +2,15 @@
 	"name" : "tumblrrr",
 	"description" : "A wrapper for Tumblr's API",
 	"keywords" : ["tumblr", "api", "wrapper"],
-	"version" : "0.2.0",
+	"version" : "0.2.1",
 	"author" : "Murilo Santana <mvrilo@gmail.com>",
 	"repository" : {
 		"type" : "git",
 	    "url" : "http://github.com/mvrilo/tumblrrr.git"
 	},
+	"dependencies": {
+    "request": ">= 0.11.0"
+  },
 	"main": "./lib/tumblrrr.js",
 	"engines": { "node": ">= 0.2.0" }
 }
